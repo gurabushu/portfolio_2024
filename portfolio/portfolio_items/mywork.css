@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+#header{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 270px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+   
+
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+
+}
+
+#header img{
+    width: 100px;
+}
+
+
+#header li img.icon{
+    width: 20px;
+        
+}
+
+#header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header li{
+    padding-left: 30px;
+    
+}
+
+.wrapper{
+    padding: 0 80px;
+    margin: 80px auto;
+    width: 960px;
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#sec-wrapper ul{
+    padding-bottom: 30px;
+}
+
+#sec-wrapper li{
+    text-align: left;
+
+}
+
+#items-wrapper {
+    display: flex;
+    justify-content:center;
+}
+
+#items-wrapper img{
+    width: 250px;
+}
+
+#items-wrapper ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+#items-wrapper li{
+    padding: 10px;
+
+}
+
+
+
+#news dl{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #000 solid 0.5px;
+    
+}
+
+
+
+#news dt{
+    border-top: 0.5px solid #000;
+    padding: 15px;
+}
+
+#news dd{
+    border-top: solid 0.5px black;
+    width: 80%;
+    padding: 15px;
+}
+
+#contact{
+    max-width: 840px;
+}
+
+#contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+#contact dt{
+    width: 15%;
+  
+}
+
+#contact dd{
+    width: 80%;
+}
+
+#contact dd input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact input{
+    width: 100%;
+}
+
+#contact dd textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+
+
+}
+
+.button{
+    width: 10%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#contact .button input{
+    width: 200%;
+    color:white;
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}

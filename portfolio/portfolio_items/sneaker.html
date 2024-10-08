@@ -1,0 +1,42 @@
+
+    <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ハンバーガーメニュー</title>
+  <link rel="stylesheet" href="./sneaker.css" type="text/css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon" id="menuIcon">
+      <!-- ハンバーガーアイコンの表示 -->
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="navMenu" class="nav-menu">
+      <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">サービス</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const menuIcon = document.getElementById('menuIcon');
+  const navMenu = document.getElementById('navMenu');
+
+  menuIcon.addEventListener('click', function () {
+    // メニューの表示/非表示を切り替える
+    navMenu.classList.toggle('active');
+  });
+});
+
+
+  </script>
+</body>
+</html>
+
+    
